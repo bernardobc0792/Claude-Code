@@ -36,4 +36,4 @@ Projeto de branding, direção de arte e estratégia de conteúdo para o Instagr
 
 Comece por [`brand/guidelines/BRAND_GUIDELINES.md`](brand/guidelines/BRAND_GUIDELINES.md) — reúne posicionamento, público, regras de identidade verbal (evergreen), identidade visual, paleta, tipografia, formatos e checklist de qualidade. Toda peça nova deve ser conferida contra esse documento antes de ser considerada pronta.
 
-Pendências registradas na seção 15 do documento: versão clara/monocromática do logo para fundos escuros, e confirmação do nome oficial das fontes do logo.
+Pendência registrada na seção 15 do documento: confirmação do nome oficial das fontes do logo (hoje usamos Poppins como substituto da sans-serif).

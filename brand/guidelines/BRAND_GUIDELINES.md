@@ -63,14 +63,14 @@ Regra de ouro: **não criar uma identidade nova a cada post.** Variedade acontec
 
 ## 6. Logo
 
-Logo oficial recebido e salvo em `/brand/logos/`:
-- `logo-horizontal-full.png` — versão completa (monograma + wordmark + linha de especialidades), cores originais: azul-marinho `#284480` e ciano `#00AFEF`.
-- `logo-horizontal-full-watermark-reference.png` — versão de baixa opacidade, indicada para uso como marca d'água discreta sobre fotografia (ex: canto de foto clínica, capa de carrossel com imagem de fundo).
+Logo oficial recebido e salvo em `/brand/logos/`, em dois lockups (fundo transparente em ambos):
+- `logo-horizontal-full.png` — versão colorida, para fundo claro/off-white. Monograma + wordmark + linha de especialidades em azul-marinho `#284480`, barra em ciano `#00AFEF`.
+- `logo-horizontal-white.png` — versão branca, para fundo escuro (verde profundo, petróleo, foto escura). Traço em branco `#FEFEFE`, barra mantida em ciano `#00AFEF`. Em pré-visualizadores com fundo branco ela aparece quase invisível — isso é esperado, é branco sobre branco; abrir sobre fundo escuro (ou no próprio Canva) para conferir.
 
-**O logo não muda de cor.** Ele continua azul-marinho + ciano em qualquer aplicação — é a âncora oficial da marca. O que se adapta é *onde e como* ele aparece:
-- Fundo claro/off-white: usar a versão original sem alteração.
-- Fundo verde escuro ou fotográfico escuro: **pendente** — ainda não existe uma versão clara/monocromática (branca) do logo para uso sobre fundos escuros. Necessário solicitar esse arquivo antes de aplicar o logo sobre `#4B7B59`, `#3A5042` ou fotografias escuras.
-- Nunca recriar o wordmark digitando em outra fonte — usar sempre o arquivo oficial.
+**O logo não muda de estrutura, só de lockup conforme o fundo:**
+- Fundo claro/off-white → `logo-horizontal-full.png`.
+- Fundo verde escuro, petróleo ou fotográfico escuro → `logo-horizontal-white.png`.
+- Nunca recriar o wordmark digitando em outra fonte — usar sempre um dos dois arquivos oficiais.
 - Respeitar área de proteção mínima ao redor do logo (não encostar texto ou elementos gráficos nele).
 
 Ver também a nota sobre a "cor de assinatura" na seção 7.
@@ -138,6 +138,5 @@ Se qualquer resposta for não, revisar antes de publicar.
 
 ## 15. Pendências
 
-- **Logo em versão clara/monocromática:** só existe a versão azul-marinho + ciano sobre fundo claro. Necessário solicitar (ou gerar) uma versão branca/monocromática do logo para aplicação sobre fundos verdes escuros e fotografias escuras.
 - **Nome exato da fonte do logo:** a sans-serif geométrica de "Ortopedia e Traumatologia" e a serif do wordmark "Dr. Bernardo Corrêa" ainda não foram identificadas pelo nome oficial. Hoje o sistema usa Poppins como substituto da sans e trata a serif como exclusiva do arquivo do logo. Se o Dr. Bernardo tiver acesso ao nome real das fontes (ex: arquivo de identidade visual original), atualizar `/brand/fonts/typography.md`.
 - **Confirmar Poppins no Canva:** verificar disponibilidade antes de travar definitivamente como fonte principal do sistema.
