@@ -2,12 +2,12 @@
 
 ## Decisão de tipografia
 
-Atualizado após recebimento do logo oficial (`/brand/logos/logo-horizontal-full.png`), que já estabelece duas famílias reais da marca:
+Mantida a decisão original do sistema de conteúdo, independente das fontes do logo (o logo é um arquivo fixo — sua tipografia própria não é retipada em nenhuma peça, ver seção sobre o logo nas guidelines):
 
-- **Família principal (sans-serif geométrica):** a mesma fonte usada em "Ortopedia e Traumatologia / Cirurgia da Mão e Microcirurgia" no logo — geométrica, arredondada, moderna. Se o arquivo/nome original não estiver disponível, o substituto mais próximo e amplamente disponível (Canva e Google Fonts) é **Poppins**. Uso em títulos, subtítulos, corpo de texto e CTAs de todo o conteúdo do feed. Pesos: SemiBold/Bold para títulos, Regular/Medium para corpo. Esta é a fonte que carrega o sistema — não a serif abaixo.
-- **Serif do logotipo — uso exclusivo do lockup "Dr. Bernardo Corrêa":** a serif elegante e com ligaduras do wordmark **nunca deve ser retipada** em outras peças — ela existe só dentro do arquivo oficial do logo. Se for necessário um momento editorial/serif em outra peça (ex: uma citação de autoridade, abertura de carrossel), usar **Playfair Display** ou **Cormorant** como aproximação visual — deixando claro que é uma prima estilística, não a fonte do logo. Uso pontual, nunca em blocos longos de texto nem em Stories rápidos.
+- **Família principal (sans-serif):** Montserrat ou Aeonik (o que estiver disponível na conta Canva). Uso em títulos, subtítulos, corpo de texto e CTAs. Pesos: Bold/SemiBold para títulos, Regular/Medium para corpo.
+- **Família secundária (serif editorial):** Fraunces ou Playfair Display. Uso pontual — frases de autoridade, aberturas de carrossel, citações. Não usar em blocos longos de texto nem em Stories informativos rápidos.
 
-Não usar mais de duas famílias na mesma peça. A serif é um tempero, não a base do sistema — a Poppins (ou equivalente) é que sustenta a legibilidade em todos os formatos pequenos do Instagram.
+Não usar mais de duas famílias na mesma peça. A serif é um tempero, não a base do sistema.
 
 ## Hierarquia
 

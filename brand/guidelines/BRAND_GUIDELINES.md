@@ -85,7 +85,7 @@ Resumo: `#FFFFFF`, `#79A28D`, `#4B7B59` e `#3A5042` como recorrentes; `#A5E8BA` 
 
 ## 8. Tipografia
 
-Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Família principal sans-serif geométrica (a mesma do logo, ou Poppins como substituto) carrega todo o conteúdo; a serif do wordmark do logo é de uso exclusivo do logotipo — nunca retipada em outras peças. Hierarquia sempre clara: título → subtítulo → informação complementar.
+Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Uma família principal (sans-serif) + uma secundária opcional (serif editorial, uso pontual). O logo mantém sua própria tipografia como arquivo fixo — nunca retipada em outras peças. Hierarquia sempre clara: título → subtítulo → informação complementar.
 
 ## 9. Layout
 
@@ -138,5 +138,4 @@ Se qualquer resposta for não, revisar antes de publicar.
 
 ## 15. Pendências
 
-- **Nome exato da fonte do logo:** a sans-serif geométrica de "Ortopedia e Traumatologia" e a serif do wordmark "Dr. Bernardo Corrêa" ainda não foram identificadas pelo nome oficial. Hoje o sistema usa Poppins como substituto da sans e trata a serif como exclusiva do arquivo do logo. Se o Dr. Bernardo tiver acesso ao nome real das fontes (ex: arquivo de identidade visual original), atualizar `/brand/fonts/typography.md`.
-- **Confirmar Poppins no Canva:** verificar disponibilidade antes de travar definitivamente como fonte principal do sistema.
+- **Confirmar Montserrat/Aeonik e Fraunces/Playfair Display no Canva:** verificar disponibilidade antes de travar definitivamente o sistema tipográfico do conteúdo.
