@@ -1,5 +1,14 @@
 # Paleta Oficial — Dr. Bernardo Corrêa
 
+## Cor de assinatura (extraída do logo oficial)
+
+| Nome                  | HEX       | Uso recomendado |
+|-----------------------|-----------|------------------|
+| Azul-marinho (tinta)   | `#284480` | **Substitui preto/grafite em todo o sistema.** Toda vez que uma peça pediria "texto preto" ou "título grafite", usar este azul-marinho no lugar. É a cor que conecta o conteúdo do feed ao logo oficial. Usar também em legendas, ícones de linha e traços finos quando não houver verde suficiente de contraste. |
+| Ciano (uso exclusivo do logo) | `#00AFEF` | **Não usar como cor de conteúdo.** Aparece só dentro do arquivo do logo (barra vertical). Não replicar em fundos, textos, tags ou CTAs — é mais frio que a paleta verde e dilui a identidade se usado fora do lockup do logo. |
+
+O logo oficial (`/brand/logos/logo-horizontal-full.png`) permanece azul-marinho + ciano — ele não muda de cor. O que muda é que o azul-marinho passa a existir também no sistema de conteúdo, como "tinta" no lugar do preto, criando uma ponte visual com o logo sem transformar o feed em uma peça azul.
+
 ## Cores principais
 
 | Nome                  | HEX       | Uso recomendado |
@@ -28,7 +37,7 @@ Não usar as 10 cores em uma mesma peça. Cada peça deve ter **1 cor de fundo d
 
 **Fundo claro / editorial (uso mais frequente — educação, autoridade)**
 - Fundo: `#FFFFFF` ou off-white
-- Texto/título: `#3A5042` ou `#4B7B59`
+- Texto/título: `#284480` (tinta) — usar `#3A5042`/`#4B7B59` apenas quando o título precisar reforçar o verde da marca em vez da conexão com o logo
 - Destaque/tag: `#A5E8BA` ou `#79A28D`
 
 **Fundo verde institucional (autoridade, posicionamento, frases de marca)**
@@ -40,13 +49,16 @@ Não usar as 10 cores em uma mesma peça. Cada peça deve ter **1 cor de fundo d
 - Fundo: `#FFFFFF` ou `#79A28D`
 - Botão/elemento de ação: `#09723D` ou `#1D9D20`
 - Texto do botão: `#FFFFFF`
+- Texto de apoio ao redor do botão: `#284480`
 
 **Variação neutra (para não "cansar" o verde)**
 - Fundo: bege/areia/grafite (ver `/brand/guidelines`)
-- Texto: `#3A5042` ou `#848A84`
+- Texto: `#284480` (tinta) ou `#848A84` para texto secundário
 - Toque de cor: `#8E6C58` pontualmente
 
 ### Não fazer
 - Não usar `#1D9D20` e `#A5E8BA` juntos em grandes áreas — o contraste vibra e parece amador.
 - Não usar mais de uma cor de "impacto" (`#1D9D20`, `#09723D`) na mesma peça.
 - Não deixar o perfil parecer "monocromático verde" — alternar com fundos claros, bege e grafite (ver seção de direção de arte nas guidelines).
+- Não usar `#00AFEF` (ciano do logo) fora do arquivo do logo.
+- Não usar preto puro (`#000000`) como cor de texto — usar `#284480` no lugar.

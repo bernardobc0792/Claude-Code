@@ -61,22 +61,40 @@ Sofisticada, contemporânea, minimalista, médica sem parecer hospitalar, premiu
 
 Regra de ouro: **não criar uma identidade nova a cada post.** Variedade acontece dentro do sistema, não fora dele.
 
-## 6. Paleta
+## 6. Logo
 
-Ver [`/brand/colors/palette.md`](../colors/palette.md) para HEX completo e combinações aprovadas. Resumo: `#FFFFFF`, `#79A28D`, `#4B7B59` e `#3A5042` como recorrentes; `#A5E8BA` para destaque suave; `#09723D`/`#1D9D20` para impacto/CTA; `#85928D`/`#848A84` como neutros; `#8E6C58` pontual. Nunca transformar o perfil em "perfil verde" — a sofisticação vem de cor + espaço negativo + tipografia + fotografia + composição.
+Logo oficial recebido e salvo em `/brand/logos/`:
+- `logo-horizontal-full.png` — versão completa (monograma + wordmark + linha de especialidades), cores originais: azul-marinho `#284480` e ciano `#00AFEF`.
+- `logo-horizontal-full-watermark-reference.png` — versão de baixa opacidade, indicada para uso como marca d'água discreta sobre fotografia (ex: canto de foto clínica, capa de carrossel com imagem de fundo).
 
-## 7. Tipografia
+**O logo não muda de cor.** Ele continua azul-marinho + ciano em qualquer aplicação — é a âncora oficial da marca. O que se adapta é *onde e como* ele aparece:
+- Fundo claro/off-white: usar a versão original sem alteração.
+- Fundo verde escuro ou fotográfico escuro: **pendente** — ainda não existe uma versão clara/monocromática (branca) do logo para uso sobre fundos escuros. Necessário solicitar esse arquivo antes de aplicar o logo sobre `#4B7B59`, `#3A5042` ou fotografias escuras.
+- Nunca recriar o wordmark digitando em outra fonte — usar sempre o arquivo oficial.
+- Respeitar área de proteção mínima ao redor do logo (não encostar texto ou elementos gráficos nele).
 
-Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Uma família principal (sans-serif) + uma secundária opcional (serif editorial, uso pontual). Hierarquia sempre clara: título → subtítulo → informação complementar.
+Ver também a nota sobre a "cor de assinatura" na seção 7.
 
-## 8. Layout
+## 7. Paleta
+
+Ver [`/brand/colors/palette.md`](../colors/palette.md) para HEX completo e combinações aprovadas.
+
+Resumo: `#FFFFFF`, `#79A28D`, `#4B7B59` e `#3A5042` como recorrentes; `#A5E8BA` para destaque suave; `#09723D`/`#1D9D20` para impacto/CTA; `#85928D`/`#848A84` como neutros; `#8E6C58` pontual. Nunca transformar o perfil em "perfil verde" — a sofisticação vem de cor + espaço negativo + tipografia + fotografia + composição.
+
+**Cor de assinatura (do logo):** `#284480` (azul-marinho) substitui preto/grafite como a cor de texto padrão em todo o sistema — é a ponte visual entre o logo oficial (azul-marinho + ciano) e o conteúdo do feed (verde). O ciano `#00AFEF` do logo **não** entra na paleta de conteúdo — fica restrito ao arquivo do logo, para não competir com o verde.
+
+## 8. Tipografia
+
+Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Família principal sans-serif geométrica (a mesma do logo, ou Poppins como substituto) carrega todo o conteúdo; a serif do wordmark do logo é de uso exclusivo do logotipo — nunca retipada em outras peças. Hierarquia sempre clara: título → subtítulo → informação complementar.
+
+## 9. Layout
 
 - Espaço negativo generoso — o vazio é elemento de design, não desperdício.
 - Margens generosas e alinhamento consistente.
 - Pergunta de composição, nesta ordem: (1) o que a pessoa precisa ver primeiro? (2) o que ela precisa entender em segundo lugar? (3) o que pode ser acrescentado (só se necessário)?
 - Nunca preencher todo o espaço disponível "porque fica bonito".
 
-## 9. Formatos
+## 10. Formatos
 
 | Peça | Dimensão |
 |---|---|
@@ -86,17 +104,17 @@ Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Uma família princip
 | Stories | 1080×1920 px |
 | Feed quadrado (com justificativa estratégica) | 1080×1080 px |
 
-## 10. Componentes reutilizáveis do sistema
+## 11. Componentes reutilizáveis do sistema
 
 `ReelCover` · `StoryQuestion` · `StoryPoll` · `StoryEducational` · `StoryCTA` · `CarouselCover` · `CarouselContent` · `MedicalDiagram` · `CTASection` · `CaseStudy` · `MythVsFact`
 
 Sistemas visuais que geram múltiplos formatos a partir de uma mesma lógica: **Pergunta**, **Caso Clínico**, **Educação**, **Mito ou Verdade** (ver briefing completo para detalhamento de cada sistema).
 
-## 11. Design médico e anatomia
+## 12. Design médico e anatomia
 
 Priorizar precisão: ilustrações anatômicas, diagramas, cortes, ultrassom, radiografia, ressonância, fotos clínicas quando apropriado. Nunca infantilizar o desenho anatômico. Nunca sacrificar precisão médica por estética.
 
-## 12. Checklist de qualidade (antes de considerar qualquer peça pronta)
+## 13. Checklist de qualidade (antes de considerar qualquer peça pronta)
 
 **Design:** equilíbrio visual · espaço negativo suficiente · tipografia correta · hierarquia clara · legível no celular · contraste adequado · composição profissional.
 
@@ -108,7 +126,7 @@ Priorizar precisão: ilustrações anatômicas, diagramas, cortes, ultrassom, ra
 
 Se qualquer resposta for não, revisar antes de publicar.
 
-## 13. Estrutura do projeto
+## 14. Estrutura do projeto
 
 ```
 /brand        → colors, fonts, logos, guidelines (este documento)
@@ -118,7 +136,8 @@ Se qualquer resposta for não, revisar antes de publicar.
 /archive      → materiais descontinuados ou substituídos
 ```
 
-## 14. Pendências
+## 15. Pendências
 
-- **Logos:** ainda não há arquivos de logo/wordmark/monograma do Dr. Bernardo em `/brand/logos`. Necessário receber os arquivos oficiais (ou brief para criação) antes de finalizar capas e templates com marca aplicada.
-- **Tipografia:** confirmar quais fontes (Montserrat/Aeonik e Fraunces/Playfair Display, ou alternativas) estão disponíveis nas ferramentas de produção (Canva) antes de travar o sistema tipográfico definitivo.
+- **Logo em versão clara/monocromática:** só existe a versão azul-marinho + ciano sobre fundo claro. Necessário solicitar (ou gerar) uma versão branca/monocromática do logo para aplicação sobre fundos verdes escuros e fotografias escuras.
+- **Nome exato da fonte do logo:** a sans-serif geométrica de "Ortopedia e Traumatologia" e a serif do wordmark "Dr. Bernardo Corrêa" ainda não foram identificadas pelo nome oficial. Hoje o sistema usa Poppins como substituto da sans e trata a serif como exclusiva do arquivo do logo. Se o Dr. Bernardo tiver acesso ao nome real das fontes (ex: arquivo de identidade visual original), atualizar `/brand/fonts/typography.md`.
+- **Confirmar Poppins no Canva:** verificar disponibilidade antes de travar definitivamente como fonte principal do sistema.
