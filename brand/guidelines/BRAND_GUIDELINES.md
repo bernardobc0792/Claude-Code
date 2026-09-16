@@ -110,6 +110,30 @@ Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Uma família princip
 
 Sistemas visuais que geram múltiplos formatos a partir de uma mesma lógica: **Pergunta**, **Caso Clínico**, **Educação**, **Mito ou Verdade** (ver briefing completo para detalhamento de cada sistema).
 
+### Receita — `StoryEducational` (aprovada em 16/09)
+
+Baseado em referência trazida pelo Dr. Bernardo (`/assets/references/story-educacional-referencia.png`) — layout aprovado, cores traduzidas para a paleta oficial da marca (a referência original usava um tom dourado/mostarda que não faz parte da paleta):
+
+| Elemento | Referência original | Versão oficial da marca |
+|---|---|---|
+| Fundo | Bege claro `#F3EEE3` | Mantido — bege/off-white já é neutro aprovado (seção 5) |
+| Tarja/etiqueta superior (eyebrow) | Dourado `#9C6A22` | Verde escuro `#09723D` |
+| Título | Verde quase-preto `#15332A` | Azul-marinho / tinta `#284480` |
+| Números da lista | Dourado `#9C6A22` | Verde escuro `#09723D` |
+| Corpo de texto | Verde quase-preto `#15332A` | Azul-marinho / tinta `#284480` |
+| Caixa de destaque (callout) — fundo | Bege `#E6DBC8` | Bege mantido, ou `#A5E8BA` (menta) em 15–20% de opacidade para reforçar a marca |
+| Caixa de destaque — barra lateral | Dourado `#9C6A22` | Verde escuro `#09723D` |
+| Botão/tag "print pra guardar" (contorno) | Dourado `#9C6A22` | Verde escuro `#09723D` |
+| Assinatura de rodapé | Cinza `#838F85` | Cinza esverdeado `#85928D` (já era quase idêntico — sem alteração) |
+
+Anatomia do layout (reaproveitável em qualquer conteúdo educativo de Stories):
+1. Tarja/etiqueta curta acima do título (contexto, ex: "SE ACONTECER PERTO DE VOCÊ").
+2. Título em duas linhas, bold, direto.
+3. Lista numerada curta (passo a passo, sintomas, sinais de alerta).
+4. Caixa de destaque para o alerta/informação mais crítica.
+5. Selo/CTA discreto de engajamento (ex: "print pra guardar").
+6. Assinatura de rodapé fixa: `DR. BERNARDO CORRÊA · [especialidade do tema]`.
+
 ## 12. Design médico e anatomia
 
 Priorizar precisão: ilustrações anatômicas, diagramas, cortes, ultrassom, radiografia, ressonância, fotos clínicas quando apropriado. Nunca infantilizar o desenho anatômico. Nunca sacrificar precisão médica por estética.
