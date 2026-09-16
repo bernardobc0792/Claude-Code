@@ -28,6 +28,7 @@ Projeto de branding, direção de arte e estratégia de conteúdo para o Instagr
     /medical         → exames, radiografias, ultrassom, ressonância
     /illustrations   → ilustrações anatômicas
     /icons           → elementos gráficos e ícones
+    /references      → exemplos e prints trazidos como referência (mood board)
 
 /archive          → materiais descontinuados
 ```

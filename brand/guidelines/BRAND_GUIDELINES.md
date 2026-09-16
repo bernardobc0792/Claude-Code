@@ -55,9 +55,9 @@ Sofisticada, contemporânea, minimalista, médica sem parecer hospitalar, premiu
 
 **Evitar sempre:** estetoscópios, médicos genéricos de banco de imagens, azul hospitalar, cruzes médicas, ícones médicos clichês, gradientes exagerados, excesso de emojis, layouts poluídos, excesso de texto, estética de clínica popular, templates genéricos.
 
-**Direção de arte preferida:** fundos claros, off-white, bege, areia, cinza, grafite, preto, tons naturais; fotografia real; ilustração anatômica sofisticada; sombras sutis; espaço negativo; composição editorial.
+**Direção de arte preferida:** o par creme/verde-escuro (`#F3EEE3` / `#15332A`) com destaque em dourado (`#9C6A22`/`#CE9134`) já é a assinatura visual reconhecida do perfil — é o ponto de partida padrão. Off-white, bege e areia continuam válidos como variações de fundo claro. Fotografia real; ilustração anatômica sofisticada; sombras sutis; espaço negativo; composição editorial.
 
-**Famílias de layout que podem coexistir dentro do mesmo sistema:** fundo claro, fundo verde, fundo neutro, fundo fotográfico, cards com bloco de cor, cards predominantemente tipográficos, ilustração anatômica, fotografia, híbrido.
+**Famílias de layout que podem coexistir dentro do mesmo sistema:** modo claro (creme + verde-escuro + dourado escuro), modo escuro (verde-escuro + creme + dourado claro), fundo fotográfico, cards com bloco de cor, cards predominantemente tipográficos, ilustração anatômica, fotografia, híbrido. A família verde-sálvia do briefing original entra como variação pontual (ver `/brand/colors/palette.md`), não como padrão.
 
 Regra de ouro: **não criar uma identidade nova a cada post.** Variedade acontece dentro do sistema, não fora dele.
 
@@ -68,8 +68,8 @@ Logo oficial recebido e salvo em `/brand/logos/`, em dois lockups (fundo transpa
 - `logo-horizontal-white.png` — versão branca, para fundo escuro (verde profundo, petróleo, foto escura). Traço em branco `#FEFEFE`, barra mantida em ciano `#00AFEF`. Em pré-visualizadores com fundo branco ela aparece quase invisível — isso é esperado, é branco sobre branco; abrir sobre fundo escuro (ou no próprio Canva) para conferir.
 
 **O logo não muda de estrutura, só de lockup conforme o fundo:**
-- Fundo claro/off-white → `logo-horizontal-full.png`.
-- Fundo verde escuro, petróleo ou fotográfico escuro → `logo-horizontal-white.png`.
+- Fundo claro/creme (`#F3EEE3` e variações) → `logo-horizontal-full.png`.
+- Fundo verde-escuro (`#15332A`, modo escuro) ou fotográfico escuro → `logo-horizontal-white.png`.
 - Nunca recriar o wordmark digitando em outra fonte — usar sempre um dos dois arquivos oficiais.
 - Respeitar área de proteção mínima ao redor do logo (não encostar texto ou elementos gráficos nele).
 
@@ -79,9 +79,11 @@ Ver também a nota sobre a "cor de assinatura" na seção 7.
 
 Ver [`/brand/colors/palette.md`](../colors/palette.md) para HEX completo e combinações aprovadas.
 
-Resumo: `#FFFFFF`, `#79A28D`, `#4B7B59` e `#3A5042` como recorrentes; `#A5E8BA` para destaque suave; `#09723D`/`#1D9D20` para impacto/CTA; `#85928D`/`#848A84` como neutros; `#8E6C58` pontual. Nunca transformar o perfil em "perfil verde" — a sofisticação vem de cor + espaço negativo + tipografia + fotografia + composição.
+**A paleta principal do sistema é a que já está publicada no Instagram:** verde-escuro `#15332A` + dourado (`#9C6A22` sobre fundo claro / `#CE9134` sobre fundo escuro) + creme (`#F3EEE3` fundo claro / `#E8DCC6` texto no fundo escuro), com `#85928D` como neutro de apoio. Funciona em dois modos que se invertem — ver detalhamento em `/brand/colors/palette.md`.
 
-**Cor de assinatura (do logo):** `#284480` (azul-marinho) substitui preto/grafite como a cor de texto padrão em todo o sistema — é a ponte visual entre o logo oficial (azul-marinho + ciano) e o conteúdo do feed (verde). O ciano `#00AFEF` do logo **não** entra na paleta de conteúdo — fica restrito ao arquivo do logo, para não competir com o verde.
+A paleta verde-sálvia do briefing original (`#79A28D`, `#4B7B59`, `#A5E8BA`, etc.) passou a ser uma **família de apoio/variação pontual**, não a base do sistema.
+
+**Cor de assinatura do logo:** `#284480` (azul-marinho) fica reservado a contextos próximos ao logo (assinatura impressa, bio, apresentações) — não é mais a cor de texto padrão do conteúdo, esse papel é do verde-escuro `#15332A`. O ciano `#00AFEF` do logo **não** entra na paleta de conteúdo em nenhuma hipótese — fica restrito ao arquivo do logo.
 
 ## 8. Tipografia
 
@@ -110,21 +112,21 @@ Ver [`/brand/fonts/typography.md`](../fonts/typography.md). Uma família princip
 
 Sistemas visuais que geram múltiplos formatos a partir de uma mesma lógica: **Pergunta**, **Caso Clínico**, **Educação**, **Mito ou Verdade** (ver briefing completo para detalhamento de cada sistema).
 
-### Receita — `StoryEducational` (aprovada em 16/09)
+### Receita — `StoryEducational` (confirmada em 16/09 — modo claro)
 
-Baseado em referência trazida pelo Dr. Bernardo (`/assets/references/story-educacional-referencia.png`) — layout aprovado, cores traduzidas para a paleta oficial da marca (a referência original usava um tom dourado/mostarda que não faz parte da paleta):
+Baseado em Story real já publicada (`/assets/references/story-educacional-referencia.png`). Layout **e cores** confirmados como padrão oficial — esse é o sistema principal, não uma tradução:
 
-| Elemento | Referência original | Versão oficial da marca |
+| Elemento | Cor | HEX |
 |---|---|---|
-| Fundo | Bege claro `#F3EEE3` | Mantido — bege/off-white já é neutro aprovado (seção 5) |
-| Tarja/etiqueta superior (eyebrow) | Dourado `#9C6A22` | Verde escuro `#09723D` |
-| Título | Verde quase-preto `#15332A` | Azul-marinho / tinta `#284480` |
-| Números da lista | Dourado `#9C6A22` | Verde escuro `#09723D` |
-| Corpo de texto | Verde quase-preto `#15332A` | Azul-marinho / tinta `#284480` |
-| Caixa de destaque (callout) — fundo | Bege `#E6DBC8` | Bege mantido, ou `#A5E8BA` (menta) em 15–20% de opacidade para reforçar a marca |
-| Caixa de destaque — barra lateral | Dourado `#9C6A22` | Verde escuro `#09723D` |
-| Botão/tag "print pra guardar" (contorno) | Dourado `#9C6A22` | Verde escuro `#09723D` |
-| Assinatura de rodapé | Cinza `#838F85` | Cinza esverdeado `#85928D` (já era quase idêntico — sem alteração) |
+| Fundo | Creme | `#F3EEE3` |
+| Tarja/etiqueta superior (eyebrow) | Dourado escuro | `#9C6A22` |
+| Título | Verde-escuro | `#15332A` |
+| Números da lista | Dourado escuro | `#9C6A22` |
+| Corpo de texto | Verde-escuro | `#15332A` |
+| Caixa de destaque (callout) — fundo | Bege | `#E6DBC8` |
+| Caixa de destaque — barra lateral | Dourado escuro | `#9C6A22` |
+| Botão/tag "print pra guardar" (contorno) | Dourado escuro | `#9C6A22` |
+| Assinatura de rodapé | Cinza esverdeado | `#85928D` |
 
 Anatomia do layout (reaproveitável em qualquer conteúdo educativo de Stories):
 1. Tarja/etiqueta curta acima do título (contexto, ex: "SE ACONTECER PERTO DE VOCÊ").
@@ -133,6 +135,27 @@ Anatomia do layout (reaproveitável em qualquer conteúdo educativo de Stories):
 4. Caixa de destaque para o alerta/informação mais crítica.
 5. Selo/CTA discreto de engajamento (ex: "print pra guardar").
 6. Assinatura de rodapé fixa: `DR. BERNARDO CORRÊA · [especialidade do tema]`.
+
+### Receita — `StoryPoll` (confirmada em 16/09 — modo escuro)
+
+Baseado em Story real já publicada (`/assets/references/story-poll-publicada-referencia.png`) — mesmo sistema de cor, invertido para o modo escuro:
+
+| Elemento | Cor | HEX |
+|---|---|---|
+| Fundo | Verde-escuro | `#15332A` |
+| Tarja/etiqueta superior (eyebrow) | Dourado claro | `#CE9134` |
+| Título — palavra(s) de ênfase | Dourado claro | `#CE9134` |
+| Título — restante do texto | Creme | `#E8DCC6` |
+| Texto de apoio (subtítulo curto) | Cinza esverdeado claro | `#85928D` (tom claro sobre fundo escuro) |
+| Elemento de enquete (sticker nativo do Instagram) | Padrão do Instagram | — não estilizar, é nativo da plataforma |
+| Assinatura de rodapé | Creme/cinza claro | `#E8DCC6` ou branco em baixa opacidade |
+
+Anatomia do layout:
+1. Tarja curta de contexto (ex: "PERGUNTA RÁPIDA").
+2. Título de 2–3 linhas, com uma parte em dourado para dar ênfase à pergunta central.
+3. Linha de apoio opcional, tom leve ("sem julgamento, só quero saber").
+4. Sticker de enquete nativo do Instagram (não recriar como elemento de design — usar o recurso real do app).
+5. Assinatura de rodapé fixa.
 
 ## 12. Design médico e anatomia
 
